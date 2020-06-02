@@ -9,8 +9,8 @@
 						<div class="carousel-inner" style="color: black">
 						
 							<?php 
-							$fb_page_id = "304186900110454";
-							$access_token = "EAAFAhc112MYBAG0LkTYEl9rHDiZAhecRLwZAMysaLTjhO8FnZCIoABBtHxd7UWkw3FdMPVQ1aZAdAGZC99bUlGyS8k0BXcPbKWG1TJzqSoAg3nPxe9sSPZB4RMTyuEZAaXNLM8BMtD8DOO1RCUpBZCDtiub3ie8rC3vlbBhFn38BoAZDZD";
+							$fb_page_id = "";
+							$access_token = "";
 							
 							
                             curl_setopt($ch, CURLOPT_URL, "https://graph.facebook.com/{$fb_page_id}/ratings?access_token={$access_token}&limit=10");
